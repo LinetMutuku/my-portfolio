@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My projects</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color:  #7d6d6d;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+
+        .col-md-4 {
+            flex-basis: calc(33.33% - 20px);
+            margin-bottom: 20px;
+            background-color:   #7d6d6d;
+            border-radius: 5px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: box-shadow 0.3s ease;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .col-md-4:hover {
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .col-md-4 img {
+            width: 100%;
+            height: auto;
+            border-bottom: 1px solid #695c5c;
+            transition: transform 0.3s ease;
+        }
+
+        .col-md-4:hover img {
+            transform: scale(1.1);
+        }
+
+        .col-md-4 h3,
+        .col-md-4 p {
+            margin: 0;
+            color: #100e0e;
+            text-align: center;
+        }
+
+        .btn-container {
+            display: flex;
+            justify-content: center; /* Center buttons */
+            align-items: center; /* Align vertically */
+            height: 40px; /* Adjust height */
+        }
+
+        .btn {
+            width: 70%;
+            padding: 3px; 
+            text-align: center;
+            background-color: #21201f;
+            color: #fff;
+            text-decoration: none;
+            border: none;
+            border-top: 1px solid #7c6767;
+            transition: background-color 0.3s ease;
+            border-radius: 5px;
+        }
+
+        .btn:hover {
+            background-color: #2c3ca4;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="text-light">My Projects</h1>
+        <div class="row">
+            <div class="col-md-4">
+                <img src="https://images.unsplash.com/photo-1572177812156-58036aae439c?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="Project 1">
+                <h3>Data project</h3>
+                <p>Employee management, CRUD operations, Django, profiles, data_project</p>
+                <a href="https://github.com/LinetMutuku/data_project" class="btn btn-primary">View Project</a>
+            </div>
+            <div class="col-md-4">
+                <img src="https://images.unsplash.com/photo-1572177812156-58036aae439c?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="Project 2">
+                <h3>REST_API</h3>
+                <p>RESTful API: Artists, albums, songs, relational model</p>
+                <a href="https://github.com/LinetMutuku/REST_API" class="btn btn-primary">View Project</a>
+            </div>
+            <div class="col-md-4">
+                <img src="https://images.unsplash.com/photo-1572177812156-58036aae439c?q=80&w=147" alt="Project 3">
+                <h3>Daraja_api </h3>
+                <p> Payment processing, transactions, mobile money</p>
+                <a href="https://github.com/LinetMutuku/Daraja_api" class="btn btn-primary">View Project</a>
+            </div>
+            <div class="col-md-4">
+                <img src="https://images.unsplash.com/photo-1572177812156-58036aae439c?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="project 4">
+                <h3> Weatherapp</h3>
+                <p>  Weather information, forecasts, city-based data</p>
+                <a href=" https://github.com/LinetMutuku/Weatherapp " class="btn btn-primary">View Project</a>
+            </div>
+            <div class="col-md-4">
+                <img src="https://images.unsplash.com/photo-1572177812156-58036aae439c?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="Project 5">
+                <h3>Cubancode </h3>
+                <p> Accommodation reservations, availability, booking management</p>
+                <a href="https://github.com/LinetMutuku/Cubancode" class="btn btn-primary">View Project</a>
+            </div>
+            <div class="col-md-4">
+                <img src="https://images.unsplash.com/photo-1572177812156-58036aae439c?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="Project 6">
+                <h3>VillaAgency_project</h3>
+                <p> Tailored for a villa rental agency. It facilitates the
+                    management of villa listings, bookings, and customer interactions.</p>
+                <a href="https://github.com/LinetMutuku/VillaAgency_project" class="btn btn-primary">View Project</a>
+            </div>
+            <div class="col-md-4">
+                <img src="https://images.unsplash.com/photo-1572177812156-58036aae439c?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="Project 7">
+                <h3>online-fashion-shop </h3>
+                <p>E-commerce platform, fashion products, shopping cart, transactions</p>
+                <a href="https://github.com/LinetMutuku/online-fashion-shop" class="btn btn-primary">View Project</a>
+            </div>
+            <div class="col-md-4">
+                <img src="https://images.unsplash.com/photo-1572177812156-58036aae439c?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="Project 8">
+                <h3>Project 8</h3>
+                <p>Description of Project 8.</p>
+                <a href="#" class="btn btn-primary">View Project</a>
+            </div>
+        </div>
+    </div>
+</body>
